@@ -112,6 +112,8 @@ header {
           color: white;
           margin-bottom: 50px;
           cursor: pointer; }
+          .banner .container .ban-right form button:hover {
+            background-color: #e53e2e; }
 
 .content {
   padding: 64px 0 63px; }
@@ -147,6 +149,8 @@ header {
         background-color: #959595;
         border-radius: 4px;
         border-bottom: solid 4px #787878; }
+        .content .container .cont-block a:hover {
+          background-color: #868686; }
     .content .container .cont-left {
       margin-left: -38px; }
     .content .container .cont-right {
