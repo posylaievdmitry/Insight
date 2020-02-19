@@ -1,0 +1,341 @@
+@import url('https://use.fontawesome.com/releases/v5.0.7/css/all.css')
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap')
+
+*
+  margin: 0
+  padding: 0
+
+body
+  font-family: 'Open Sans', sans-serif
+
+$grey-color: #8e959c
+$orange-color: #ff4533
+
+.container
+  max-width: 1140px
+  margin: auto
+
+header
+  background-color: #1a1d24
+  .container
+    display: flex
+    align-items: center
+    .head-left
+      width: 25%
+    .head-right
+      width: 75%
+      display: flex
+      justify-content: flex-end
+      border-right: solid 1px #2d333d
+      a
+        font-size: 16px
+        text-decoration: none
+        color: white
+        border-left: solid 1px #2d333d
+        padding: 0 25px
+        line-height: 62px
+        &:hover
+          background-color: #068fd5
+        i
+          margin-right: 10px
+.banner
+  background-image: url('../images/back-img.jpg')
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+  padding-top: 73px
+  .container
+    display: flex
+    .ban-left
+      padding: 52px 0 0 0
+      width: 33.3%
+      h1
+        font-weight: 700
+        font-size: 36px
+        color: white
+        margin-bottom: 32px
+      p
+        padding-right: 11px
+        font-size: 18px
+        color: white
+        line-height: 30px
+    .ban-center
+      width: 33.3%
+      text-align: center
+      img
+        margin-bottom: -6px
+        max-width: 100%
+    .ban-right
+      width: 33.3%
+      padding-top: 54px
+      form
+        display: block
+        margin: auto
+        max-width: 296px
+        p
+          font-size: 18px
+          color: white
+          margin-bottom: 24px
+        input
+          display: block
+          margin: auto
+          width: 100%
+          box-sizing: border-box
+          font-size: 16px
+          color: white
+          background-color: transparent
+          border: solid 2px #a5cbde
+          border-radius: 2px
+          padding: 14px
+          margin-bottom: 10px
+          opacity: 75%
+          outline: none
+          &::-webkit-input-placeholder
+            color: white
+          &:focus
+            border: solid 2px white
+            opacity: 100%
+        span
+          font-size: 12px
+          color: white
+          display: block
+          padding-top: 15px
+          margin-bottom: 23px
+          a
+            color: white
+        button
+          background-color: $orange-color
+          padding: 0 44px
+          line-height: 50px
+          border-radius: 4px
+          border: none
+          border-bottom: solid 4px #c53527
+          font-weight: 600
+          font-size: 18px
+          color: white
+          margin-bottom: 50px
+
+
+.content
+  padding: 64px 0 63px
+  .container
+    display: flex
+    margin: auto
+    .cont-block
+      width: 33%
+      padding: 0 38px
+      .images
+        height: 124px
+        display: flex
+        align-items: flex-end
+        margin-bottom: 67px
+        img
+          max-width: 100%
+      h2
+        font-weight: 600
+        font-size: 24px
+        color: #191919
+        margin-bottom: 20px
+
+      p
+        font-size: 14px
+        line-height: 24px
+        color: #959595
+        margin-bottom: 43px
+      a
+        font-weight: 600
+        font-size: 14px
+        color: white
+        text-decoration: none
+        padding: 14px 33px
+        background-color: #959595
+        border-radius: 4px
+        border-bottom: solid 4px #787878
+    .cont-left
+      margin-left: -38px
+    .cont-right
+      margin-right: -38px
+.text
+  .container
+    border-top: solid 1px #e8eaeb
+    padding: 51px 0 63px
+    p
+      font-weight: 300
+      color: $grey-color
+      font-size: 30px
+      line-height: 41px
+      span
+        color: $orange-color
+      a
+        display: inline-block
+        width: 41px
+        height: 41px
+        border-radius: 20px
+        background-color: $orange-color
+        text-align: center
+        font-size: 20px
+        color: white
+        margin-left: 25px
+
+footer
+  background-color: #1b1e26
+  padding: 40px 0 42px
+  .container
+    display: flex
+    .foot-left
+      width: 50%
+      display: flex
+      justify-content: space-between
+      ul
+        display: inline-block
+        list-style: none
+        p
+          font-weight: 700
+          font-size: 12px
+          text-transform: uppercase
+          margin-bottom: 25px
+          color: white
+        li
+          font-size: 12px
+          color: $grey-color
+          margin-bottom: 12px
+          &:hover
+            color: $orange-color
+    .foot-right
+      width: 50%
+      text-align: end
+      a
+        color: white
+        margin: 0 0 0 20px
+        &:hover
+          color: $orange-color
+      p
+        line-height: 20px
+        font-size: 12px
+        color: $grey-color
+        margin-top: 91px
+
+
+@media only screen and (max-width: 1024px)
+  header
+    .container
+      .head-left
+        padding: 0 25px
+
+
+  .banner
+    .container
+      .ban-left
+        padding: 52px 0 0 25px
+        width: 31%
+      .ban-center
+        width: 35%
+      .ban-right
+        width: 31%
+
+  .content
+    .container
+      .cont-left
+        margin-left: 0
+      .cont-right
+        margin-right: 0
+
+  .text
+    .container
+      p
+        padding: 0 10px
+
+  footer
+    padding: 30px 0 30px
+    .container
+      padding: 0 25px
+
+@media only screen and (max-width: 768px)
+  .banner
+    .container
+      .ban-left
+        padding: 52px 0 0 20px
+        width: 50%
+      .ban-center
+        display: none
+      .ban-right
+        width: 50%
+        text-align: center
+
+  .text
+    .container
+      p
+        padding: 0 25px
+
+  footer
+    padding: 30px 0 30px
+    .container
+      padding: 0 25px
+      .foot-left
+        width: 70%
+        .foot-right
+          width: 30%
+
+@media only screen and (max-width: 414px)
+  header
+    .container
+      flex-wrap: wrap
+      .head-left
+        padding: 25px
+        text-align: center
+        width: 100%
+      .head-right
+        text-align: center
+        flex-direction: column
+        width: 100%
+
+  .banner
+    .container
+      flex-wrap: wrap
+      .ban-left
+        text-align: center
+        padding: 20px 10px 0 10px
+        width: 100%
+        h1
+          font-size: 30px
+        p
+          font-size: 14px
+      .ban-right
+        width: 100%
+
+  .content
+    padding: 64px 0 63px
+    .container
+      flex-wrap: wrap
+      text-align: center
+      .cont-block
+        width: 100%
+        padding: 30px
+        margin-bottom: 30px
+        .images
+          margin-bottom: 30px
+          img
+            display: block
+            margin: auto
+
+  .text
+    .container
+      p
+        font-size: 14px
+        padding: 0 30px
+
+  footer
+    padding: 30px 0 30px
+    .container
+      padding: 0 5px
+      flex-wrap: wrap
+      .foot-left
+        width: 100%
+        margin-bottom: 40px
+      .foot-right
+        width: 100%
+        text-align: center
+        a
+          margin: 10px
+        p
+          margin-top: 10px
