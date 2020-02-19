@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cf9f3d12-b0ec-493e-9f3d-031eaa4eb3a8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.sass" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +60,8 @@
       <workItem from="1581944043607" duration="9967000" />
       <workItem from="1582048941782" duration="3346000" />
       <workItem from="1582119075336" duration="6569000" />
-      <workItem from="1582127212891" duration="629000" />
+      <workItem from="1582127212891" duration="723000" />
+      <workItem from="1582128178396" duration="325000" />
     </task>
     <task id="LOCAL-00001" summary="edit css">
       <created>1582127602535</created>
@@ -71,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582127602535</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="edit css">
+      <created>1582127931525</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582127931525</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,7 +88,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
